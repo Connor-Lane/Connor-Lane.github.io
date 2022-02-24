@@ -1,0 +1,136 @@
+/* Importing Martel Sans Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Martel Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.nav {
+    display: flex;
+    width: 100vw;
+    height: 7vh;
+    background-color: purple;
+    color: gold;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+}
+
+a {
+    margin: 0 20px;
+    color: gold;
+}
+
+a:visited {
+    color: gold;
+}
+
+/* Introduction */
+
+#intro {
+    text-align: center;
+    height: 95vh;
+    font-size: 30px;
+    background-color: rebeccapurple;
+    color: white;
+    position: relative;
+    top: 7vh;
+    display: flex;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    margin: 37px;
+    height: 80vh;
+    width: 40vw;
+    border-radius: 50px;
+    float: left;
+}
+
+/* Work */
+
+#work {
+    margin-top: 7vh;
+    background-color: blanchedalmond;
+    font-size: 45px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Projects */
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: crimson;
+    text-align: center;
+}
+
+#projects > section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project {
+    background-color: lightgoldenrodyellow;
+    display: inline-block;
+    height: 400px;
+    width: 31vw;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.project a {
+    color: blue;
+}
+
+.project > img {
+    width: 350px;
+    height: 280px;
+}
+
+/* Contact */
+
+#contact {
+    background-color: cornflowerblue;
+    text-align: center;
+    margin-top: -7vh;
+    height: 30vh;
+}
+
+#contact > a {
+    color: tomato;
+    font-size: 50px;
+}
+
+#contact > a:visited {
+    color: tomato;
+}
